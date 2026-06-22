@@ -154,3 +154,51 @@ body{
 .btn-create:hover{
     background:#552ad0;
 }
+
+/* ===================== */
+/* NOTIFICACIONES */
+/* ===================== */
+
+.notificacion{
+    width:85%;
+    margin:30px auto;
+    background:white;
+    border:2px solid #d8d8d8;
+    border-radius:18px;
+    padding:20px;
+    position:relative;
+}
+
+.notificacion h2{
+    font-size:1.7rem;
+    font-weight:500;
+    color:#333;
+    margin-bottom:15px;
+}
+
+.descripcion{
+    font-size:1.1rem;
+    color:#666;
+    margin-bottom:12px;
+    line-height:1.5;
+}
+
+.fecha{
+    font-size:1rem;
+    color:#888;
+}
+
+.cerrar{
+    position:absolute;
+    top:10px;
+    right:15px;
+    background:none;
+    border:none;
+    font-size:1.8rem;
+    color:#444;
+    cursor:pointer;
+}
+
+.cerrar:hover{
+    color:#6738e5;
+}
