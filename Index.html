@@ -116,8 +116,8 @@ function login(){
     let u = document.getElementById("usuario").value;
     let p = document.getElementById("pass").value;
 
-    if(u === "admin" && p === "1234"){
-        window.location.href = "registro.html";
+    if(u === "" && p === ""){
+        window.location.href = "nuevaTarea.html";
     } else {
         alert("Datos incorrectos");
     }
