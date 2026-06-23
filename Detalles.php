@@ -45,7 +45,6 @@ echo '<!DOCTYPE html>
             justify-content: space-between;
         }
 
-        /* HEADER */
         .header{
             background:#6738e5;
             color:white;
@@ -101,7 +100,6 @@ echo '<!DOCTYPE html>
             padding: 5px;
         }
 
-        /* DESCRIPCION */
         .description-section{
             margin-bottom:40px;
         }
@@ -133,7 +131,6 @@ echo '<!DOCTYPE html>
             outline: none;
         }
 
-        /* CAMPOS */
         .field-row{
             display:flex;
             align-items:center;
@@ -168,7 +165,7 @@ echo '<!DOCTYPE html>
         }
 
         .status-completed-row {
-            display: none; /* Controlado dinámicamente más abajo */
+            display: none; 
             align-items: center;
             justify-content: space-between;
             margin-top: 25px;
@@ -189,7 +186,6 @@ echo '<!DOCTYPE html>
             color: #2e7d32;
         }
 
-        /* BOTONES DE ACCIÓN INFERIORES */
         .action-buttons {
             display: flex;
             justify-content: space-around;
@@ -220,7 +216,6 @@ echo '<!DOCTYPE html>
         .btn-action.delete:hover { color: #F44336; }
         .btn-action.complete:hover { color: #4CAF50; }
 
-        /* MODAL / VENTANA EMERGENTE DE ELIMINAR */
         .modal-overlay {
             display: none; 
             position: fixed;
@@ -346,7 +341,6 @@ echo '<!DOCTYPE html>
 </div>
 
 <script>
-    // Lógica interactiva de Edición
     function activarEdicion() {
         document.getElementById(\'titulo\').removeAttribute(\'readonly\');
         document.getElementById(\'descripcion\').removeAttribute(\'readonly\');
